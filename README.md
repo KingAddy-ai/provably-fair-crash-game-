@@ -27,3 +27,23 @@ This project demonstrates understanding of:
 1. Server generates a secret seed
 2. SHA256 hash of seed is published before gameplay
 3. Each round uses:
+4. 4. Crash multiplier is deterministic & verifiable
+5. Server seed is revealed after session ends
+
+---
+
+## 🛠 Tech Stack
+
+- Backend: Python, Flask
+- Frontend: HTML, CSS, JavaScript
+- Crypto: SHA256
+- Architecture: Single-file Flask app
+
+---
+
+## ▶️ Run Locally
+
+```bash
+pip install -r requirements.txt
+python app.py
+
